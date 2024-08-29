@@ -1,0 +1,5 @@
+resp <- c(1,2,3,4,5,6,7,8,9,10)
+mathgrades <- c(1.25,3.00,2.75,3.00,1.75,2.50,3.00,1.50,1.75,5.00)
+compgrades <- c(2.75,3.00,1.00,1.00,2.75,1.50,2.00,1.25,1.75,5.00)
+plot(resp,mathgrades,main="BS Computer Science Students' Math Grades", xlab="Respondents", ylab="Math Grades")
+plot(resp,compgrades,main="BS Computer Science Students' CompSci Grades", xlab="Respondents", ylab="CompSci Grades")
